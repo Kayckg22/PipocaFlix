@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    background-color:black;
+}
+
+.container-grid {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    z-index: 1;
+    background-color: white;
+    height: 80px;
+    width: 100vw;
+}
+.conteudo-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.menu-header {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header a {
+    color: rgb(51, 40, 40);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.3s;
+}
+
+.menu-header a:hover:not(.botao) {
+    font-size: 1.6em;
+    transition: 0.3s;
+    text-shadow: 4px 4px 6px rgb(41, 93, 189);
+}
+.titulo-senai {
+    font-size: 42px;
+}
+
+.menu-barras {
+    display: initial;
+}
+
+#icone-menu {
+    color: rgb(53, 40, 40);
+    font-size: 30px;
+}
+.Recomendacao-filmes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-sobre {
+    width: 40%;
+}
+
+.texto-participantes {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.conteudo-sobre h3 {
+    color: #ffaf00;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.texto-sobre p {
+    color: #ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+body, ul {
+    margin: 0px;
+    padding: 0px;
+}
+.section-banner-home {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    margin: 18px auto;
+    background-color: #0e0d0d;
+}
+.section-banner-home img {
+    height: 400px;
+}
+.section-banner-home .texto-banner {
+    margin-top: 30px;
+    font-size: 22px;
+}
+.section-banner-home .texto-banner h1 {
+    font-size: 30px;
+    width: 60%;
+    font-weight: 500;
+    padding-bottom: 20px; /* Margem interna do texto */
+    color: #fff;
+}
+
+.section-banner-home .texto-banner p {
+    font-size: 18px;
+    margin-bottom: 20px; /* Margem externa abaixo do texto */
+    color: #fff;
+}
+.section-banner-home .texto-banner a {
+    color: rgb(228, 220, 220);
+    text-decoration: none;
+    background-color: #fff;
+    padding: 4px 14px;
+    font-size: 15px;
+}
