@@ -1,28 +1,134 @@
-/* CSS Destaque*/
-.destaque h2{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    background-color:rgb(15, 29, 73);
+}
+
+.container-grid {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    z-index: 1;
+    background-color: white;
+    height: 80px;
+    width: 100vw;
+}
+.conteudo-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.menu-header {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header a {
+    color: rgb(51, 40, 40);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.3s;
+}
+
+.menu-header a:hover:not(.botao) {
+    font-size: 1.6em;
+    transition: 0.3s;
+    text-shadow: 4px 4px 6px rgb(41, 93, 189);
+}
+.botao {
+    background-color: rgb(248, 245, 245);
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.5 !important;
+    transition: 0.3s;
+    text-shadow: 4px 4px 6px rgb(41, 93, 189);
+}
+.botao:hover {
+    font-size: 1.6 em !important;
+    height: 50px;
+    line-height: 50px;
+    width: 160px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 6px #0000007a;
+}
+
+.menu-barras {
+    display: none;
+}
+
+/* Início CSS Galeria */
+.galeria {
+    margin: 60px auto 20px;
+}
+.galeria h2 {
     text-align: center;
     font-size: 24px;
-    font-weight: bold;
 }
-.destaque p {
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+.galeria .gallery {
+    width: 570px;
+
+    margin: 14px auto 50px;
+}
+/* Fim CSS Galeria */
+body {
+    background-color:rgb(15, 29, 73);
+}
+.texto-galeria {
+    width: 30%;
+}
+.nosso-catalago-de-filmes h2 {
     width: 77%;
     text-align: center;
     font-size: 14px;
     margin: 30px auto;
 }
-.destaque figcaption {
-    font-size: 13px;
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-}
-.destaque a {
+.texto-galeria h2 {
     justify-content: center;
     display: flex;
     text-decoration: none;
-    color: #30dcf4;
+    background-color: aqua;
+    color: #fdffff;
     font-size: 18px;
     font-weight: bold;
     margin: 30px 0;
 }
-/* Fim CSS Destaque */
+footer {
+    height: 80px;
+    background-color: #a5082f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%; 
+    text-align: center;
+}
+
